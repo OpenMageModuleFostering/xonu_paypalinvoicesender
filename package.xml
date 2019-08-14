@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>xonu_PayPalInvoiceSender</name>
+    <version>1.0.3</version>
+    <stability>stable</stability>
+    <license>xonu.de EULA</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Sends invoice automatically after an order is paid using PayPal.</summary>
+    <description>After successful PayPal payment, Magento automatically creates invoice but it is not sent to customer. PayPal Invoice Sender automatically sends the invoice after an order have been paid using PayPal.</description>
+    <notes>Sends invoice automatically after an order is paid using PayPal.</notes>
+    <authors><author><name>Pawel Kazakow</name><user>xonu</user><email>support@xonu.de</email></author></authors>
+    <date>2013-04-26</date>
+    <time>10:02:14</time>
+    <contents><target name="magecommunity"><dir name="Xonu"><dir name="PayPalInvoiceSender"><dir name="Helper"><file name="Data.php" hash="479eb1ba9251284df7fa77b2bc48913b"/></dir><dir name="Model"><file name="Ipn.php" hash="216303893fc5f6779143983232f0c046"/></dir><dir name="etc"><file name="config.xml" hash="1272ce18126c057930d53fa9639a2c00"/><file name="system.xml" hash="4ebf526088aa0c1e06c94fa3f7395a89"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="xonu_PayPalInvoiceSender.xml" hash="0e45ae150966e6249d5b9b1887c07910"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

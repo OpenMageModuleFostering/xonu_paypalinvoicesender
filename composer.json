@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/xonu_PayPalInvoiceSender",
+    "type": "magento-module",
+    "license": "xonu.de-EULA",
+    "homepage": "",
+    "description": "Sends invoice automatically after an order is paid using PayPal.",
+    "authors": [
+    {
+        "name": "Pawel Kazakow",
+        "email": "support@xonu.de"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
