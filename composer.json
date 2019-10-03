@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/xonu_PayPalInvoiceSender",
+    "name": "openmage-module-fostering\/xonu_paypalinvoicesender",
     "type": "magento-module",
     "license": "xonu.de-EULA",
     "homepage": "",
